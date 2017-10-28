@@ -10,7 +10,7 @@ namespace HackerRank
 {
   public class HourGlass
   {
-    public static void Main(string[] args)
+    public static void HourGlassMain(string[] args)
     {
       int[][] arr = new int[6][];
       for (int arr_i = 0; arr_i < 6; arr_i++)
