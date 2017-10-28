@@ -8,7 +8,7 @@ namespace HackerRank
 {
   public class LeftArrayRotation
   {
-    public static void Main(string[] args)
+    public static void LeftArrayMain(string[] args)
     {
       string[] tokens_n = Console.ReadLine().Split(' ');
       int n = Convert.ToInt32(tokens_n[0]);

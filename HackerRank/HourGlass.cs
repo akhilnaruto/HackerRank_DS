@@ -49,12 +49,12 @@ namespace HackerRank
 
     private static List<int[][]> SplitIntoHourGlasses(int[][] input)
     {
-      var columnIteraton = 4;
+      var maxIterationsPossible = 4;
       var rowIteration = 4;
       List<int[][]> hourGlasses = new List<int[][]>();
-      for (int j = 0; j < columnIteraton; j++)
+      for (int j = 0; j < maxIterationsPossible; j++)
       {
-        for (int i = 0; i < rowIteration; i++)
+        for (int i = 0; i < maxIterationsPossible; i++)
         {
           int[][] hourGlass = new int[3][];
           hourGlass[0] = new int[] { input[i][j], input[i][j + 1], input[i][j + 2] };
